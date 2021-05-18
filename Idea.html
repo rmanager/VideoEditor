@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button id="playVideo" type="button">Play</button>
+<button id="pauseVideo" type="button">Pause</button>
+<button id="preview" type="button">Preview</button>
+<button id="cont" type="button">Continue</button>
+<br>
+<input id = "time" type = "text">Enter Time</input>
+<button id="jumpToTime" type="button">Jump To (s)</button>
+<br>
+<canvas id = "stage" width = "1080" height = "1920">
+If you can see this, use a different browser.
+</canvas>
+<p>Height: <span id="height"></span></p>
+<p>Width: <span id="width"></span></p>
+<p>Mouse X: <span id="mouseX"></span></p>
+<p>Mouse Y: <span id="mouseY"></span></p>
+<input id = "period" type = "text" title = "Tween Time:"></input>
+<input id = "posFX" type = "text" title = "Mouse X Finish:"></input>
+<input id = "posFY" type = "text" title = "Mouse Y Finish:"></input>
+<button id="tween" type="button">Go</button>
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+  <script type="text/javascript" src="../Common/initShaders.js"></script>
+  <script type="text/javascript" src="../Common/MV.js"></script>
+  <script type="text/javascript" src="../Common/webgl-debug.js"></script>
+  <script type="text/javascript" src="idea.js"></script>
+</body>
+</html>
